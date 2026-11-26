@@ -1,0 +1,9 @@
+[project]
+name = "phonebook-lookup-api"
+version = "1.0.0"
+description = "PhoneBook lookup API (stdlib-only WSGI app)"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.vercel]
+entrypoint = "wsgi:application"
